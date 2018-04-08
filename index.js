@@ -1,7 +1,7 @@
 var protein = require('protein');
 var murl = require('murl');
 var address = require('network-address');
-var EventEmitter = require('events');
+process.EventEmitter = require('events');
 
 var METHODS = 'GET HEAD POST PUT DELETE PATCH OPTIONS'.split(' ');
 var ALIASES = {};
